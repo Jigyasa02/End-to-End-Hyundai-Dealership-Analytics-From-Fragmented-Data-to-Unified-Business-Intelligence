@@ -17,7 +17,7 @@ An enterprise-scale Business Intelligence project that transforms fragmented dea
 
 
 <p align="center">
- ![alt text](image.png)
+  <img src="image/flowchart.png" alt="Hyundai Dealership Workflow" width="900">
 </p>
 
 </div>
@@ -244,31 +244,29 @@ End-To-End-Hyundai-Dealership-Analytics/
 
 ## Executive Dashboard
 
-<img src="executive_summary.png" width="1000">
-
----
+<img src="image/eS.png" width="1000">
 
 ## Sales & Marketing Funnel
 
-<img src="images/sales_&_marketing_funnel.png" width="1000">
+<img src="image/smF.png" width="1000">
 
 ---
 
 ## Sales After Service
 
-<img src="images/service_after_sales.png" width="1000">
+<img src="image/saS.png" width="1000">
 
 ---
 
 ## Finance, Insurance & Inventory
 
-<img src="images/finance_insurance_&_inventory.png" width="1000">
+<img src="image/fiI.png" width="1000">
 
 ---
 
 ## Booking_to_Delivery Deep Dive
 
-<img src="images/booking_to_delivery_deep_dive.png" width="1000">
+<img src="image/btddD.png" width="1000">
 
 ---
 
