@@ -1,0 +1,7 @@
+insurance_provider,policies_sold,total_premium,total_commission,avg_premium,avg_commission,commission_pct
+ICICI Lombard,53,2879844.0,360646.0,54337.0,6805.0,12.52
+HDFC Ergo,46,2284183.0,281276.0,49656.0,6115.0,12.31
+Bajaj Allianz,32,1691365.0,208003.0,52855.0,6500.0,12.3
+TATA AIG,31,1628370.0,212231.0,52528.0,6846.0,13.03
+New India Assurance,25,1270026.0,157867.0,50801.0,6315.0,12.43
+Oriental Insurance,13,631639.0,81798.0,48588.0,6292.0,12.95

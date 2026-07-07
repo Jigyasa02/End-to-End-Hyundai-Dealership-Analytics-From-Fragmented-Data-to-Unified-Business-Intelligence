@@ -1,0 +1,55 @@
+import sqlite3
+import pandas as pd
+import os
+
+# Step 1: Get project paths
+script_dir = os.path.dirname(os.path.abspath(__file__))
+project_dir = os.path.dirname(script_dir)
+
+# Step 2: Connect to database
+db_path = os.path.join(project_dir, 'hyundai_dealership.db')
+conn = sqlite3.connect(db_path)
+
+# Step 3: SQL Query (FIXED)
+query = """
+SELECT 
+    (SELECT COUNT(*) FROM invoices) as total_invoices,
+    (SELECT COUNT(DISTINCT invoice_id) 
+     FROM finance_applications 
+     WHERE status = 'Disbursed') as financed_deals,
+    ROUND(
+        100.0 * 
+        (SELECT COUNT(DISTINCT invoice_id) 
+         FROM finance_applications 
+         WHERE status = 'Disbursed')
+        /
+        NULLIF((SELECT COUNT(*) FROM invoices), 0),
+        2
+    ) as finance_penetration
+"""
+
+# Step 4: Execute Query
+df = pd.read_sql(query, conn)
+
+# Step 5: Verify Output
+print("Q19: FINANCE PENETRATION RATE (FIXED)")
+print("-" * 50)
+print(df.to_string(index=False))
+print("\nQuery executed successfully!")
+
+# Step 6: Create dashboard_data folder if missing
+dashboard_dir = os.path.join(project_dir, 'dashboard_data')
+os.makedirs(dashboard_dir, exist_ok=True)
+
+# Step 7: Export CSV
+output_file = os.path.join(
+    dashboard_dir,
+    'q19_finance_penetration.csv'
+)
+
+df.to_csv(output_file, index=False)
+
+print(f"\nCSV Created: {output_file}")
+
+# Step 8: Close Connection
+conn.close()

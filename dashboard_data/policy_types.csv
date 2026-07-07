@@ -1,0 +1,5 @@
+policy_type,count,avg_premium,avg_idv,percentage
+Comprehensive,103,52167.0,1432958.0,51.5
+Third Party,35,52010.0,1450286.0,17.5
+Zero Dep,35,48429.0,1350155.0,17.5
+Return to Invoice,27,55438.0,1536591.0,13.5

@@ -1,0 +1,16 @@
+customer_name,income_bracket,last_purchase_date,frequency,monetary,segment
+Arjun Rao,10-15 LPA,2025-10-30,3,10803510.0,Promising
+Karan Bansal,10-15 LPA,2025-11-11,4,10704001.0,Promising
+Vikram Reddy,5-10 LPA,2025-07-06,3,9289808.0,Promising
+Vikram Nair,5-10 LPA,2026-03-02,4,8067071.0,Recent Customers
+Sneha Bansal,15-25 LPA,2026-03-28,4,7636023.0,Potential Loyalists
+Tanvi Mehta,10-15 LPA,2026-01-16,3,7157722.0,Recent Customers
+Sanjay Reddy,15-25 LPA,2026-01-26,3,7055545.0,Recent Customers
+Arjun Malhotra,5-10 LPA,2026-05-02,2,6865831.0,Champions
+Amit Agarwal,15-25 LPA,2025-10-26,2,6400446.0,Promising
+Rohit Verma,10-15 LPA,2025-02-16,2,6041166.0,At Risk
+Monica Kumar,10-15 LPA,2026-03-18,3,5829713.0,Recent Customers
+Rekha Desai,25-40 LPA,2026-02-11,2,5746017.0,Recent Customers
+Neha Bansal,25-40 LPA,2025-10-14,2,5600844.0,Promising
+Aditya Kumar,5-10 LPA,2025-04-05,2,5557750.0,At Risk
+Rohit Mehta,5-10 LPA,2026-06-02,2,5470358.0,Champions

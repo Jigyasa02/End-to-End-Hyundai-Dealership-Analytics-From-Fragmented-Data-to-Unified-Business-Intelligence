@@ -1,0 +1,5 @@
+retention_status,customer_count,percentage
+Cold (181-365 days),91,30.33
+Dormant (>365 days),88,29.33
+Active (0-90 days),72,24.0
+Warm (91-180 days),49,16.33

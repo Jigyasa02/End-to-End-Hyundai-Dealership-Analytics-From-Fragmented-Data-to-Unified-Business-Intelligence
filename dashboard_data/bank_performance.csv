@@ -1,0 +1,8 @@
+bank_name,applications,disbursed,approved,rejected,total_loan_amount,avg_interest_rate,success_rate
+HDFC Bank,98,72,12,5,159395888.0,10.42,73.47
+ICICI Bank,96,66,18,7,167922901.0,10.37,68.75
+SBI,80,61,5,7,141499130.0,10.3,76.25
+Axis Bank,66,46,7,5,111734284.0,10.41,69.7
+Kotak Mahindra,32,24,6,0,54965600.0,10.44,75.0
+Bank of Baroda,19,16,1,1,28619561.0,10.22,84.21
+Canara Bank,9,7,2,0,16303653.0,10.15,77.78
