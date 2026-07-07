@@ -17,7 +17,7 @@ An enterprise-scale Business Intelligence project that transforms fragmented dea
 
 
 <p align="center">
-  <img src="flowchart.png" alt="Hyundai Dealership Workflow" width="900">
+ ![alt text](image.png)
 </p>
 
 </div>
@@ -244,7 +244,7 @@ End-To-End-Hyundai-Dealership-Analytics/
 
 ## Executive Dashboard
 
-<img src="images/executive_summary.png" width="1000">
+<img src="executive_summary.png" width="1000">
 
 ---
 
