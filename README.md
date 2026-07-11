@@ -315,11 +315,10 @@ B.Tech Computer Science (Data Science)
 
 Data Analyst | Business Intelligence Enthusiast
 
-LinkedIn: https://linkedin.com/in/YOUR-LINKEDIN
+LinkedIn: https://www.linkedin.com/in/jigyasa-singh-36b18736b/
 
-GitHub: https://github.com/YOUR-USERNAME
-
-Email: YOUR-EMAIL
+GitHub: https://github.com/Jigyasa02
+Email:  jigyasas355@gmail.com
 
 ---
 
